@@ -184,7 +184,7 @@
 &none  &kp LS(LA(LEFT_ARROW))       &kp LS(LA(RIGHT_ARROW))      &kp LA(UP_ARROW)            &kp LA(DOWN_ARROW)         &repeat5_macro                                       &kp PAGE_UP            &kp HOME               &kp UP                 &kp END                &kp LS(LA(LC(LG(F)))) &none
 &none  &hml LCTRL LG(LEFT_BRACKET)  &hml LALT LG(RIGHT_BRACKET)  &hml LSHIFT LA(LEFT_ARROW)  &hml LGUI LA(RIGHT_ARROW)  &kp LG(LS(N4))                                       &kp PG_DN              &kp LEFT               &kp DOWN               &kp RIGHT              &kp LS(F6)            &none
 &none  &kp C_PP                     &kp LG(GRAVE)                &kp LA(LG(N))               &kp LA(LG(J))              &kp LG(LS(N5))                                       &kp LS(LA(LC(LG(C))))  &kp LS(LA(LC(LG(M))))  &kp LS(LA(LC(LG(E))))  &kp LS(LA(LC(LG(L))))  &kp LS(LA(LC(Z)))     &none
-                                    &trans                       &trans                      &trans                     &trans          &trans        &kp LS(LA(LC(LG(A))))  &kp LS(LA(LC(LG(W))))  &kp LS(LA(LC(LG(S))))  &kp C_MEDIA_PREV       &kp C_MEDIA_NEXT
+                                    &trans                       &trans                      &trans                     &trans          &trans        &kp LS(LA(LC(LG(A))))  &kp LS(LA(LC(LG(W))))  &kp LS(LA(LC(LG(S))))  &trans       &trans
             >;
         };
     };
