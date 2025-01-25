@@ -80,20 +80,6 @@
             bindings = <&bt BT_SEL 4 &bt BT_CLR>;
             label = "BT_CLR_4";
         };
-
-        studio_unlock: studio_unlock {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&macro_press>, <&macro_release>;
-            label = "STUDIO_UNLOCK";
-        };
-
-        soft_off: soft_off {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&macro_press>, <&macro_release>;
-            label = "SOFT_OFF";
-        };
     };
 
     behaviors {
@@ -184,11 +170,11 @@
 
         num {
             bindings = <
-&none  &none             &none                &none                        &none                 &none                                             &none           &none           &none           &none   &none         &none
-&none  &kp GRAVE         &kp PIPE             &kp PERCENT                  &kp DOLLAR            &kp EXCLAMATION                                   &kp LS(N7)      &kp N7          &kp N8          &kp N9  &kp POUND      &none
-&none  &hml LCTRL EQUAL  &hml LEFT_ALT SLASH  &hml LSHFT LEFT_PARENTHESIS  &hml LGUI LEFT_BRACE  &kp LEFT_BRACKET                                  &kp AT_SIGN     &kp N4          &kp N5          &kp N6  &kp N0         &none
-&none  &kp PLUS          &kp BACKSLASH        &kp RIGHT_PARENTHESIS        &kp RIGHT_BRACE       &kp RIGHT_BRACKET                                 &kp QUESTION    &kp N1          &kp N2          &kp N3  &kp ASTERISK   &none
-                         &kp C_VOL_DN         &kp C_VOL_UP                 &kp AMPERSAND         &kp MINUS         &kp UNDERSCORE       &soft_off  &trans          &studio_unlock  &bt BT_SEL 1    &bt BT_CLR
+&none  &none             &none                &none                       &none                &none                                            &none        &none        &none          &none     &none        &none
+&none  &kp GRAVE         &kp PIPE             &kp PERCENT                 &kp DOLLAR           &kp EXCLAMATION                                  &kp LS(N7)   &kp N7       &kp N8         &kp N9    &kp POUND    &none
+&none  &hml LCTRL EQUAL  &hml LEFT_ALT SLASH  &hml LSHFT LEFT_PARENTHESIS &hml LGUI LEFT_BRACE &kp LEFT_BRACKET                                &kp AT_SIGN  &kp N4       &kp N5         &kp N6    &kp N0       &none
+&none  &kp PLUS          &kp BACKSLASH        &kp RIGHT_PARENTHESIS       &kp RIGHT_BRACE      &kp RIGHT_BRACKET                               &kp QUESTION &kp N1       &kp N2         &kp N3    &kp ASTERISK &none
+                         &kp C_VOL_DN         &kp C_VOL_UP                &kp AMPERSAND        &kp MINUS        &kp UNDERSCORE      &soft_off  &trans       &studio_unlock &bt BT_SEL 0 &bt BT_CLR
             >;
         };
 
