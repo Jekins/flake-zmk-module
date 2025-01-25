@@ -80,6 +80,20 @@
             bindings = <&bt BT_SEL 4 &bt BT_CLR>;
             label = "BT_CLR_4";
         };
+
+        studio_unlock: studio_unlock {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press>, <&macro_release>;
+            label = "STUDIO_UNLOCK";
+        };
+
+        soft_off: soft_off {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press>, <&macro_release>;
+            label = "SOFT_OFF";
+        };
     };
 
     behaviors {
